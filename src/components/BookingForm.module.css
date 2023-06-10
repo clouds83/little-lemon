@@ -1,0 +1,41 @@
+.bookingFormWrapper form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookingFormWrapper input,
+.bookingFormWrapper select {
+  width: 100%;
+  height: 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.bookingFormWrapper h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.inputError {
+  font-size: 0.875rem;
+  color: red;
+  margin: 0;
+}
+
+.controlForm {
+  margin-bottom: 1rem;
+}
+
+.bookingFormWrapper input[type='submit'] {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--yellow);
+  height: fit-content;
+}
+
+.bookingFormWrapper input[type='submit']:hover {
+  background-color: var(--grey-150);
+}

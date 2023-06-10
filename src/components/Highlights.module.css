@@ -1,0 +1,40 @@
+.highlights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  width: 100%;
+}
+
+.toolbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.highlights h2 {
+  font-size: 2rem;
+}
+
+.highlights button {
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: var(--yellow);
+}
+
+.highlights button:hover {
+  background-color: var(--grey-150);
+}
+
+.cardsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
